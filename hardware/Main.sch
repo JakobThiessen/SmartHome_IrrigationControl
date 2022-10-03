@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9838,8 +9838,8 @@ W = angled&lt;p&gt;
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="IC1" library="SamacSys_Parts" deviceset="ESP32-WROOM-32D_M113DH3200PH3Q" device="" override_package3d_urn="urn:adsk.eagle:package:33503162/2" override_package_urn="urn:adsk.eagle:footprint:33503164/1"/>
-<part name="J2" library="SamacSys_Parts" deviceset="1727078" device="" override_package3d_urn="urn:adsk.eagle:package:32643971/2" override_package_urn="urn:adsk.eagle:footprint:32643972/1" override_locally_modified="yes"/>
-<part name="IC2" library="SamacSys_Parts" deviceset="LAN8720A-CP-ABC" device=""/>
+<part name="J2" library="SamacSys_Parts" deviceset="1727078" device="" override_package3d_urn="urn:adsk.eagle:package:37628422/2" override_package_urn="urn:adsk.eagle:footprint:37628424/1"/>
+<part name="IC2" library="SamacSys_Parts" deviceset="LAN8720A-CP-ABC" device="" override_package3d_urn="urn:adsk.eagle:package:37628434/2" override_package_urn="urn:adsk.eagle:footprint:37628435/1"/>
 <part name="J3" library="SamacSys_Parts" deviceset="HR911105A" device="" override_package3d_urn="urn:adsk.eagle:package:33503120/2" override_package_urn="urn:adsk.eagle:footprint:33503121/1"/>
 <part name="J4" library="SamacSys_Parts" deviceset="1727010" device="" override_package3d_urn="urn:adsk.eagle:package:33503251/2" override_package_urn="urn:adsk.eagle:footprint:33503252/1"/>
 <part name="IC3" library="SamacSys_Parts" deviceset="R-78E3.3-1.0" device="" override_package3d_urn="urn:adsk.eagle:package:33503227/2" override_package_urn="urn:adsk.eagle:footprint:33503228/1" value="R-78E5.0-1.0"/>
@@ -9924,7 +9924,7 @@ W = angled&lt;p&gt;
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0R0"/>
 <part name="L1" library="SamacSys_Parts" deviceset="74279208" device=""/>
 <part name="+3V26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="PROG" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE06-1" device="" package3d_urn="urn:adsk.eagle:package:8191/1" value="PROG"/>
+<part name="PROG" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE06-1" device="" package3d_urn="urn:adsk.eagle:package:8191/1" override_package3d_urn="urn:adsk.eagle:package:37628425/2" override_package_urn="urn:adsk.eagle:footprint:8135/1" value="PROG"/>
 <part name="+3V27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q1" library="SamacSys_Parts" deviceset="O50.0-JO32-B-3.3-1" device=""/>
@@ -9950,27 +9950,27 @@ W = angled&lt;p&gt;
 <part name="D8" library="SamacSys_Parts" deviceset="ES1DL_R3G" device="" override_package3d_urn="urn:adsk.eagle:package:33503264/2" override_package_urn="urn:adsk.eagle:footprint:33503265/1" value="ES1D"/>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33R"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="Q2" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device=""/>
+<part name="Q2" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:37628458/2" override_package_urn="urn:adsk.eagle:footprint:37628459/1"/>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q3" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device=""/>
+<part name="Q3" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:37628456/2" override_package_urn="urn:adsk.eagle:footprint:37628457/1"/>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q4" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device=""/>
+<part name="Q4" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:37621866/2" override_package_urn="urn:adsk.eagle:footprint:37621867/1"/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q5" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device=""/>
+<part name="Q5" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:37621859/2" override_package_urn="urn:adsk.eagle:footprint:37621860/1"/>
 <part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q6" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device=""/>
+<part name="Q6" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:37621835/2" override_package_urn="urn:adsk.eagle:footprint:37621836/1"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9991,9 +9991,9 @@ W = angled&lt;p&gt;
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+UB" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+UB" device=""/>
-<part name="J5" library="SamacSys_Parts" deviceset="1727049" device=""/>
-<part name="J6" library="SamacSys_Parts" deviceset="1727049" device=""/>
-<part name="VIO" library="con-lstb" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1"/>
+<part name="J5" library="SamacSys_Parts" deviceset="1727049" device="" override_package3d_urn="urn:adsk.eagle:package:37628603/3" override_package_urn="urn:adsk.eagle:footprint:37628604/1"/>
+<part name="J6" library="SamacSys_Parts" deviceset="1727049" device="" override_package3d_urn="urn:adsk.eagle:package:37628606/3" override_package_urn="urn:adsk.eagle:footprint:37628607/1"/>
+<part name="VIO" library="con-lstb" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1" override_package3d_urn="urn:adsk.eagle:package:37628614/2" override_package_urn="urn:adsk.eagle:footprint:37628615/1"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -10008,7 +10008,7 @@ W = angled&lt;p&gt;
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC4" library="SamacSys_Parts" deviceset="LT1129MPST-3.3#PBF" device=""/>
+<part name="IC4" library="SamacSys_Parts" deviceset="LT1129MPST-3.3#PBF" device="" override_package3d_urn="urn:adsk.eagle:package:37628594/2" override_package_urn="urn:adsk.eagle:footprint:37628595/1"/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10018,11 +10018,11 @@ W = angled&lt;p&gt;
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="IC5" library="SamacSys_Parts" deviceset="SN74LVC1G17DBVR" device=""/>
-<part name="IC6" library="SamacSys_Parts" deviceset="SN74LVC1G17DBVR" device=""/>
-<part name="IC7" library="SamacSys_Parts" deviceset="SN74LVC1G17DBVR" device=""/>
-<part name="IC8" library="SamacSys_Parts" deviceset="SN74LVC1G17DBVR" device=""/>
-<part name="IC9" library="SamacSys_Parts" deviceset="SN74LVC1G17DBVR" device=""/>
+<part name="IC5" library="SamacSys_Parts" deviceset="SN74LVC1G17DBVR" device="" override_package3d_urn="urn:adsk.eagle:package:37628491/2" override_package_urn="urn:adsk.eagle:footprint:37628494/1"/>
+<part name="IC6" library="SamacSys_Parts" deviceset="SN74LVC1G17DBVR" device="" override_package3d_urn="urn:adsk.eagle:package:37628475/2" override_package_urn="urn:adsk.eagle:footprint:37628476/1"/>
+<part name="IC7" library="SamacSys_Parts" deviceset="SN74LVC1G17DBVR" device="" override_package3d_urn="urn:adsk.eagle:package:37628473/2" override_package_urn="urn:adsk.eagle:footprint:37628474/1"/>
+<part name="IC8" library="SamacSys_Parts" deviceset="SN74LVC1G17DBVR" device="" override_package3d_urn="urn:adsk.eagle:package:37628466/2" override_package_urn="urn:adsk.eagle:footprint:37628467/1"/>
+<part name="IC9" library="SamacSys_Parts" deviceset="SN74LVC1G17DBVR" device="" override_package3d_urn="urn:adsk.eagle:package:37628463/2" override_package_urn="urn:adsk.eagle:footprint:37628464/1"/>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
